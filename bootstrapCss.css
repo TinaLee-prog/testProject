@@ -1,0 +1,41 @@
+
+
+.jumbotron{
+    color:#fff;
+    background-image: url("./images/pic51.jpg");
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    min-height: 1365px;
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+body{
+    font-family: "微軟正黑體",Arial, Helvetica;
+    font-weight: bold;
+}
+#production{
+    padding-top: 40px;
+}
+.container{
+    margin: auto;
+}
+#sportlogo{
+    padding-top: 40px;
+}
+#guess{
+    padding-top: 40px;
+}
+#buyrules{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.bgcolor{
+    color: #ffffff;
+    background-color: rgb(151, 140, 140);
+}

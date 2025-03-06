@@ -1,0 +1,16 @@
+ <section id="mainmenu">
+
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="jumbotron">
+                    <h1 class="display-4">！讓我們一起動起來！</h1>
+                    <p class="lead">在運動出汗的過程中，皮膚的新陳代謝加快，毒素排出體外，而且出汗還能夠幫助清潔毛孔，有效護膚美容。</p>
+                    <hr class="my-4">
+                    <p>讓我們提供一雙好的運動鞋來幫助你。</p>
+                    <p>林肯運動鞋專賣店-電子商店</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Show more</a>
+                </div>
+            </div>
+        </div>
+    </section>

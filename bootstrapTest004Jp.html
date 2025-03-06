@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./1216_Lesson-09/bootstrapOFF.html">
+    <link rel="stylesheet" href="./bootstrapCss.css">
+    <link rel="stylesheet" href="./bootstrapTest004Jp.css">
+    <link rel="stylesheet" href="./animate.compat.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>bootstrapTest004Jp</title>
+</head>
+<body>
+  <div id="mainmenu">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-color:var(-bs-)"> <!--用fixed-top加mainmenu的paddingTop 65px會呈現上面有空隙不會壓到字-->
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" href="index.php"><img src="images/sakura2.png" alt="logo" class="img-fluid"></a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
+                國外旅遊
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="nav-item dropend">
+                        <a class="dropdown-item dropdown-toggle" href="#">亞洲</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">日本</a></li>
+                            <li><a class="dropdown-item" href="#">韓國</a></li>
+                            <li><a class="dropdown-item" href="#">中國</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#">歐美</a>
+                    </li>
+                    <li class="nav-item dropend">
+                      <a class="dropdown-item dropdown-toggle" href="#">中東</a>
+                    </li>
+                </ul>
+                
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#production">國內旅遊</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#sportlogo">豪華郵輪</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#buyrules">服務說明</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">連絡我們</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            會員中心
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">訂單查詢</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">退訂／退款查詢</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">現金積點查詢</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">折價券查詢</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">登入</a></li>
+            <li class="nav-item"><a class="nav-link" href="">註冊</a></li>
+            <li class="nav-item"><a class="nav-link" href="">登出</a></li>
+            <li class="nav-item">
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </li>
+        </ul>
+        
+        </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/icherry03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>❝ 日本賞櫻地點推薦 ❞</h5>
+                      <p>兵庫縣｜姫路城</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/icherry04.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>❝ 日本賞櫻地點推薦 ❞</h5>
+                      <p>山梨縣｜新倉山浅間公園</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/icherry05.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>❝ 日本賞櫻地點推薦 ❞</h5>
+                      <p>青森 ｜弘前公園</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/icherry06.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>❝ 日本賞櫻地點推薦 ❞</h5>
+                      <p>東京｜目黑川</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <hr>
+        <div class="row text-center justify-content-center animated rubberBand">
+            <div class="card col-md-4 me-3 my-3" style="width:26em">
+                <div class="card-body">
+                    <img src="./images/icherry0301.jpg" alt="" class="animated flipInX">
+                  <h5 class="card-title">兵庫縣｜姫路城</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">櫻花開花期：3月下旬～4月上旬</h6>
+                  <p class="card-text">位於兵庫縣姫路市的姫路城，擁有超過 400 年悠久歷史，是一座被指定為世界文化遺產的國寶之城。因其白壁擴展的天守群和仿若白鷺展翅的優美姿態，也被譽為「白鷺城」。</p>
+                  <a href="#" class="btn btn-dark animated jackInTheBox">More info</a>
+                  <a href="#" class="btn btn-green">Add to cart</a>
+                </div>
+            </div>
+            <div class="card col-md-4 me-3 my-3" style="width:26em">
+                <div class="card-body">
+                    <img src="./images/icherry0401.jpg" alt="">
+                  <h5 class="card-title">山梨縣｜新倉山浅間公園</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">櫻花開花期：4 月上旬～4月下旬</h6>
+                  <p class="card-text">河口湖的「新倉山淺間公園」是賞櫻季節的絕佳景點之一。富士山河口湖位於東京近郊，站在公園上方的觀景台，可以把日本代表物：富士山、櫻花和五層寶塔的絕美景色盡收眼底，如明信片般的景色。每當春天來臨，約 650 棵染井吉野櫻花樹競相盛開，登上 398 階的木花開耶姬臺階俯瞰。</p>
+                  <a href="#" class="btn btn-dark">Card link</a>
+                  <a href="#" class="btn btn-green">Add to cart</a>
+                </div>
+            </div>
+            <div class="card col-md-4 me-3 my-3" style="width: 26em;">
+                <div class="card-body">
+                    <img src="./images/icherry0501.jpg" alt="">
+                  <h5 class="card-title">青森 ｜弘前公園</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">櫻花開花期： 4月中旬～5月初</h6>
+                  <p class="card-text">弘前公園座落於青森縣弘前市的城市中心。位居日本三大賞櫻名勝之一，公園內的弘前城與櫻花相映成趣，更被譽為日本第一美景。主要以染井吉野櫻為中心，再加上枝垂櫻、八重櫻等 52 種，約 2,600 棵的櫻花樹在此爭奇鬥艷，共同打造出一幅撼動人心的櫻花絕景。</p>
+                  <a href="#" class="btn btn-dark">Card link</a>
+                  <a href="#" class="btn btn-green">Add to cart</a>
+                </div>
+            </div>
+            <div class="card col-md-4 me-3 my-3" style="width: 26em;">
+                <div class="card-body">
+                    <img src="./images/icherry0601.jpg" alt="">
+                  <h5 class="card-title">東京｜目黑川</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">櫻花開花期：3月下旬～4月上旬</h6>
+                  <p class="card-text">東京賞櫻的絕佳去處非目黑川莫屬！一踏出中目黑車站，便沉浸在一片櫻花海之中，即刻感受到春日的浪漫氛圍。目黑川兩岸的櫻花花海以粉嫩的染井吉野櫻為主，沿著河岸漫步，會經過櫻橋、朝日橋、千歲橋及柳橋等小橋，從橋上可以櫻花樹在兩岸繁茂生長，形成的「櫻花隧道」。</p>
+                  <a href="#" class="btn btn-dark">Card link</a>
+                  <a href="#" class="btn btn-green">Add to cart</a>
+                </div>
+            </div>
+            
+        </div>
+  </div>
+
+  <section id="footer">
+    <div class="container text-center">
+      <p>關注我們</p>
+      <div class="row">
+        <ul class="list-unstyled d-flex justify-content-center gap-4">
+          <li><i class="fab fa-facebook-square fa-x3"></i></li>
+          <li><i class="fab fa-line"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">Copyright &copy; 2024 SakuraLtd. All rights reserved</div>
+      </div>
+    </div>
+  </section>
+    <!-- <script type="text/javascript" src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"> 5.3.3 -->
+    </script>
+  </div>
+</body>
+</html>
