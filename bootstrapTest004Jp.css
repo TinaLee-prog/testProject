@@ -1,0 +1,51 @@
+h5{
+    font-weight: 800px;
+}
+
+.btn-green {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #66c09a;
+    --bs-btn-border-color: #66c09a;
+    --bs-btn-hover-color: #f1ee23;
+    --bs-btn-hover-bg: #12ad1f;
+    --bs-btn-hover-border-color: #12ad1f;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0dfd99;
+    --bs-btn-active-border-color: #0dfd99;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0dfd99;
+    --bs-btn-disabled-border-color: #0dfd99;
+}
+
+.card-body img{
+    width: 300px;
+    height: 200px;
+}
+.navbar-nav .nav-item img{
+    margin-top: -15px;
+    margin-right: 10px;
+}
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu{
+    display:block;
+    margin-top:0.125em;
+    margin-left: 0.125em;
+    margin-right: 80%;
+}
+.dropdown .dropdown-menu{
+    display:none;
+}
+@media screen and (min-width:993px){
+    .dropend:hover>.dropdown-menu{
+        position:absolute;
+        top:0;
+        left:100%;
+    }
+} 
+
+#footer{
+    background-color: #284136;
+    color:#fff;
+}
